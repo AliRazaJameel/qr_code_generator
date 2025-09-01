@@ -76,7 +76,7 @@ app.get('/app-store-redirect', (req, res) => {
 // ✅ Generate QR code on startup
 generateQRCodeWithLogo(
     'https://api.limoaffiliatesworldwide.com/app-store-redirect',
-    './logo.png',
+    './logo/logo.png',
     './qrcodes/rider_with_logo.png'
 );
 
