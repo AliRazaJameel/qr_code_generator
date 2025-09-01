@@ -1,0 +1,19 @@
+{
+  "name": "qr-logo-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "qr-code-with-logo": "^1.1.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.34.3"
+  }
+}
